@@ -8,6 +8,7 @@
             Console.WriteLine("I have many string problems, please adhere to following instructions for a smooth experience.");
             Console.WriteLine("Press 1 if you want to CheckPalindrome");
             Console.WriteLine("Press 2 if you want to CheckAnagram");
+            Console.WriteLine("Press 3 if you want to implement string compression");
             Console.WriteLine("Press 6 if you want to exit");
             Console.WriteLine("\n");
 
@@ -24,6 +25,11 @@
                     case "2":
                         CheckAnagram checkAnagram = new CheckAnagram();
                         checkAnagram.start();
+                        break;
+
+                    case "3":
+                        StringCompression stringCompression = new StringCompression();
+                        stringCompression.Start();
                         break;
 
                     case "6":
