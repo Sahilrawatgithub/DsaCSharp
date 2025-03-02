@@ -7,7 +7,7 @@
             Console.WriteLine("I have many array problems, please adhere to following instructions for a smooth experience.");
             Console.WriteLine("Press 1 if you want to Put zeroes at end");
             Console.WriteLine("Press 2 if you want to find Maximum Subarray");
-
+            Console.WriteLine("Press 3 if you want to Rotate array by k elements");
             
             Console.WriteLine("Press 6 if you want to exit");
             Console.WriteLine("\n");
@@ -20,11 +20,22 @@
                     case "1":
                         MoveZeroes moveZeroes = new MoveZeroes();
                         moveZeroes.Start();
+                        Console.WriteLine("\n");
+                        Console.WriteLine("Please follow instructions given above");
                         break;
 
                     case "2":
                         MaximumSubarray maximumSubarray = new MaximumSubarray();
-                        maximumSubarray.Start();    
+                        maximumSubarray.Start();
+                        Console.WriteLine("\n");
+                        Console.WriteLine("Please follow instructions given above");
+                        break;
+
+                    case "3":
+                        RotateArray rotateArray = new RotateArray();
+                        rotateArray.Start();
+                        Console.WriteLine("\n");
+                        Console.WriteLine("Please follow instructions given above");
                         break;
 
                     case "6":
