@@ -6,6 +6,8 @@
         {
             Console.WriteLine("I have many array problems, please adhere to following instructions for a smooth experience.");
             Console.WriteLine("Press 1 if you want to Put zeroes at end");
+            Console.WriteLine("Press 2 if you want to find Maximum Subarray");
+
             
             Console.WriteLine("Press 6 if you want to exit");
             Console.WriteLine("\n");
@@ -18,6 +20,11 @@
                     case "1":
                         MoveZeroes moveZeroes = new MoveZeroes();
                         moveZeroes.Start();
+                        break;
+
+                    case "2":
+                        MaximumSubarray maximumSubarray = new MaximumSubarray();
+                        maximumSubarray.Start();    
                         break;
 
                     case "6":
