@@ -4,9 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA_core
+namespace Strings
 {
     internal class Cll
     {
+        private Node head;
+
+        public void AddFirst(int data)
+        {
+            Node node = new Node(data);
+
+            if (head == null)
+            {
+                head = node;
+                head.Next = head;
+                return;
+            }
+
+
+        }
     }
 }
