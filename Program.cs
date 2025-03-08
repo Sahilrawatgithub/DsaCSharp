@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is the Dev branch, check other branches for code");
+            int[] arr = { 1, 3, 4, 6, 8, 11, 13, 14 };
+            int key = 6;    
+
+            BinarySearch.Search(arr, key);
+        }
+
+        void Print(int[] arr)
+        {
+            for(int i=0;i<arr.Length; i++)
+            {
+                Console.Write(arr[i]+" ");
+            }
         }
     }
 }
